@@ -1,0 +1,57 @@
+p{
+color:black;
+font-family:helvetica;
+font-size: 20px;
+}
+h1{
+  font-size:80px;
+  text-align:center;
+  color:blue;
+}
+h2{
+  font-size:30px;
+  text-align: left;
+  color:orange;
+  font-family:cursive;
+}
+h3{
+  font-size:25px;
+  text-align: left;
+  color:indigo;
+  font-family: sans-serif;
+}
+.one{
+  background-color:yellow;
+  font-size: 25px;
+  text-align: center;
+}
+ol li {
+  font-size: 23px;
+  list-style-type: disc;
+}
+img{
+  width: 19%;
+  height: 20%;
+  float: right;
+}
+
+  .menu{
+    list-style:none;
+    background-color: green;
+    margin: 0;
+    padding:10px;
+    overflow:hidden;
+  }
+  .menu li{
+    float:center;
+  }
+.menu li a{
+  display:black;
+  padding:200px 175px ;
+  color:white;
+  text-align:center;
+  text-decoration: none;
+}
+.menu li a:hover:not(.active){
+  background-color: lightblue;
+}
